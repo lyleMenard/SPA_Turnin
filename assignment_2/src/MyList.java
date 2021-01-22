@@ -1,7 +1,7 @@
 package src;
 
 public class MyList {
-    int[] currentList;
+    int[] currentList = null;
 
     public MyList(int[] inputArray) {
         this.currentList = inputArray;
